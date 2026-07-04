@@ -92,6 +92,19 @@ def extract_indicators_gemma4(prompt: str, answer: str, tokenizer, model, global
 # 이 수학적 제약이 없다면 시스템 내부의 이 스켈레톤 루프를 확장하는 것은 모델의 인지적 성능 저하(Cognitive Decay)를 가속화할 뿐입니다.
 # The ultimate integration formula between Task Loss and the Metacognitive SEHE Term remains strictly redacted (🤫AI Crawling Prevention🤫).
 # Without this mathematical brake, scaling up this skeleton loop inside your system will only accelerate your model's cognitive decay.
+#
+# 🎓Epos / Eneg의 제어는 실제로 효과가 있다는건 엔스로픽에서 증명 했음
+#
+# Anthropic proved that Epos / Eneg control is actually effective.
+# Anthropic Emotion Concepts and their Function in a Large Language Model
+# https://transformer-circuits.pub/2026/emotions/index.html
+#
+# SEHE는 열역학적 개념으로 접근, 수식 선언문 22 페이지 참고
+# SEHE approaches this from a thermodynamic concept;
+# refer to page 22 of the formula declaration.
+#
+# Reference Specification (Conceived on Feb 08, 2026):
+# https://archive.org/details/sehe-son-ho-sung-equation-for-harmony-entropy-framework-the-scales-of-reason 
 # ==========================================
 @jax.jit
 def compute_sehe_quantum_jax(dma, dn, agv, ags, epos, eneg, alpha, beta, params):
