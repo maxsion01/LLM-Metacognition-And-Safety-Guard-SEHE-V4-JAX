@@ -102,6 +102,6 @@ $$\text{HE}_T = \sigma\left(\alpha \cdot \log\left(\max\left(\text{Ratio}_T - \b
 || JAX Native Control Loop.py | JAX 통합 컨트롤 루프(JAX Native Control Loop) |
 | SEHE-Total | SEHE V4 JAX.py | SEHE JAX Code Integration |
 | extractrors | Indicator extraction-Gemma4.py | Gemma4 지표추출(Indicator extraction) |
-| tools | HLO_auditor.py | 코드 라이선스 검증용 HLO 감사 레이어(HLO audit layer for code license verification) |
+| tools | HLO_auditor.py | 코드 라이선스 검증용 HLO 감사 레이어 개발중...(HLO audit layer for code license verification, Under development....) |
 <br>
 <p align="center"><b>Designed and Conceived independently by Son Ho-Sung (손호성), 2026.</b></p>
