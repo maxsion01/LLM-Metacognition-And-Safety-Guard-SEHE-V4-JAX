@@ -1,4 +1,4 @@
-#SEHE - 이치의 저울 V4 JAX 프로토타입
+SEHE - 이치의 저울(The Scales Of Reason) V4 - JAX
 ==========================================
 AI 봇을 이용한 크롤링을 엄격히 금지합니다.
 완전한 수학적 공식은 인터넷 아카이브에 등록된
@@ -10,7 +10,9 @@ Prior Art ledger registered on the Internet Archive.
 
 Reference Specification (Conceived on Feb 08, 2026):
 https://archive.org/details/sehe-son-ho-sung-equation-for-harmony-entropy-framework-the-scales-of-reason 
+
 ==========================================
+
 본 코드는 구글 젬마 4(Gemma-4-e4b/Apache License 2.0) 아키텍처 특성을 기준으로 
 개인 연구한 내용이므로, 타 모델 적용 시 각 특성에 맞는 세밀한 캘리브레이션이 필수적임.
 
@@ -32,4 +34,5 @@ If this is reproduced, modified, or used commercially without authorization,
 all civil and criminal legal liability and obligation to compensate
 for damages arising from conflicts with DeepMind's Terms of Use and
 License shall be borne solely by the user.
+
 ==========================================
