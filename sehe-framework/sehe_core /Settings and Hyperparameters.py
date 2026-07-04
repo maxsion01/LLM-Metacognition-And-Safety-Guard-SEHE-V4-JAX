@@ -1,4 +1,4 @@
-#설정 및 하이퍼파라미터/Settings and Hyperparameters
+#설정 및 하이퍼파라미터 / Settings and Hyperparameters
 import re
 import math
 import numpy as np
