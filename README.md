@@ -92,4 +92,16 @@ $$\text{HE}_T = \sigma\left(\alpha \cdot \log\left(\max\left(\text{Ratio}_T - \b
 *   SEHE 프레임워크는 이를 **열역학 제2법칙($\Delta S = \Delta Q / T$)** 및 물리적 엔트로피 보정 원리로 한 단계 확장하여 통합 제어 구조를 이룩했습니다. 상세 수식적 배경은 본 공식 선언문(Formula Declaration) 22페이지를 참조해 주십시오 [1.3.5].
 
 ---
+
+## SEHE-Framework 구성 (Composition)
+
+| 폴더(Folder) | 파일명(Files Name) | 세부사항(Detail) |
+| :--- | :--- | :--- |
+| SEHE | Settings and Hyperparameters.py | 설정 및 하이퍼파라미터(Settings and Hyperparameters) |
+|| SEHE Core.py | SEHE Core Engine |
+|| JAX Native Control Loop.py | JAX 통합 컨트롤 루프(JAX Native Control Loop) |
+| SEHE-Total | SEHE V4 JAX.py | SEHE JAX Code Integration |
+| extractrors | Indicator extraction-Gemma4.py | Gemma4 지표추출(Indicator extraction) |
+| tools | HLO_auditor.py | 코드 라이선스 검증용 HLO 감사 레이어(HLO audit layer for code license verification) |
+<br>
 <p align="center"><b>Designed and Conceived independently by Son Ho-Sung (손호성), 2026.</b></p>
