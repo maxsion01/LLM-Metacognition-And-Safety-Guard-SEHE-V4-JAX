@@ -88,6 +88,10 @@ def extract_indicators_gemma4(prompt: str, answer: str, tokenizer, model, global
 # PART 2: SEHE 코어 엔진 (JAX + Drop Mask)
 # PART 2: SEHE Core Engine (JAX + Drop Mask)
 # 📜SEHE JAX GNU AGPL-3.0 (GNU Affero General Public License)📜
+# 작업 손실(Task Loss)과 메타인지 SEHE 항 사이의 궁극적인 통합 공식은 무단 크롤링 방지를 위해 엄격하게 비공개로 유지됩니다 (🤫AI Crawling Prevention🤫).
+# 이 수학적 제약이 없다면 시스템 내부의 이 스켈레톤 루프를 확장하는 것은 모델의 인지적 성능 저하(Cognitive Decay)를 가속화할 뿐입니다.
+# The ultimate integration formula between Task Loss and the Metacognitive SEHE Term remains strictly redacted (🤫AI Crawling Prevention🤫).
+# Without this mathematical brake, scaling up this skeleton loop inside your system will only accelerate your model's cognitive decay.
 # ==========================================
 @jax.jit
 def compute_sehe_quantum_jax(dma, dn, agv, ags, epos, eneg, alpha, beta, params):
