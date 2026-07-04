@@ -56,7 +56,7 @@ class AntiGravityComplianceEngine:
         
         if is_stolen:
             risk_level = "🔴 CRITICAL"
-            action = "**장물 코드 지문 감지**: 사용 불가. 즉시 격리 및 시니어 아키텍트 서명 대기."
+            action = "**장물 코드 지문 감지**: 사용 불가. 즉시 격리 및 아키텍트 서명 대기."
             license_type = "GPL 3.0 (세탁 의심)"
             owner = "Anthropic (Stolen)"
         elif is_google_jax:
@@ -66,7 +66,7 @@ class AntiGravityComplianceEngine:
             owner = "Google DeepMind"
         else:
             risk_level = "🟡 WARNING"
-            action = "출처 불분명. 4050 시니어 아키텍트 위원회 수동 심사 필요."
+            action = "출처 불분명. 아키텍트 수동 심사 필요."
             license_type = "CCL BY-NC"
             owner = suspected_by
 
