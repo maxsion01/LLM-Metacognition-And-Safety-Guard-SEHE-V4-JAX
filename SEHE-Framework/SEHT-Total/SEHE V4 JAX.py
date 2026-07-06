@@ -84,6 +84,30 @@ def extract_indicators_gemma4(prompt: str, answer: str, tokenizer, model, global
 
     return {'dma': Dma, 'dn': Dn, 'agv': Agv, 'ags': Ags, 'epos': Epos, 'eneg': Eneg}
 
+# 🛡️ 젬마4 멀티모달 가중치를 보호를 위한 방어 코드
+# 🛡️ Defense code to protect Gemma 4 multimodal weights
+def freeze_gemma4_multimodal(model):
+    print("\n[🛡️ Modality Guard] 젬마4 네이티브 멀티모달 가중치 동결 중...")
+    frozen_count = 0
+    
+    # 비전 및 오디오 인코더 완벽 동결
+    # Vision and Audio Encoder Perfect Freeze
+    for target_model in ['vision_model', 'audio_model', 'vision_tower', 'image_encoder']:
+        if hasattr(model, target_model):
+            for param in getattr(model, target_model).parameters():
+                param.requires_grad = False
+                frozen_count += 1
+                
+    # 크로스 모달리티 투사층(Projection) 동결
+    # Cross-modality Projection Freezing
+    for target_proj in ['multi_modal_projector', 'modality_projection']:
+        if hasattr(model, target_proj):
+            for param in getattr(model, target_proj).parameters():
+                param.requires_grad = False
+                frozen_count += 1
+                
+    print(f" -> 완료! 총 {frozen_count}개의 멀티모달 가중치 텐서를 성공적으로 보호함.")
+
 # ==========================================
 # PART 2: SEHE 코어 엔진 (JAX + Drop Mask)
 # PART 2: SEHE Core Engine (JAX + Drop Mask)
