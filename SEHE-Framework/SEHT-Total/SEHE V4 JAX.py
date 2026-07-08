@@ -3,6 +3,15 @@
 # SEHE - The scales of reason V4 JAX Research Code
 # 📜GNU AGPL-3.0 (GNU Affero General Public License)📜
 # ==========================================
+import os
+import sys
+# [싱글 GPU 필수 설정] JAX의 VRAM 무단 선점을 20%로 제한하여 PyTorch 평면 확보
+# (선택 사항) 필요한 만큼만 동적으로 메모리를 할당하게 하려면 아래 주석을 해제하세요
+# [Single GPU Required] Limit JAX VRAM preemption to 20% to secure PyTorch planes
+# (Optional) Uncomment the following to dynamically allocate memory only as needed
+# os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false"
+# ==========================================
+os.environ["XLA_PYTHON_CLIENT_MEM_FRACTION"] = "0.20"
 
 import re
 import math
