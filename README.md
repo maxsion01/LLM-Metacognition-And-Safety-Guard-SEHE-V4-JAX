@@ -1,7 +1,7 @@
 # SEHE - 이치의 저울 (The Scales of Reason) v4 (JAX-XLA Thermodynamic Core)
 
 <p align="center">
-  <img src="책표지v3.png" alt="The Scales of Reason" width="400"/>
+  <img src="책표지v3.png" alt="The Scales of Reason" width="800"/>
 </p>
 
 <p align="center">
@@ -47,6 +47,10 @@
 ### 1. 핵심 수식 (Core Formula)
 
 본 시스템은 조화와 혼돈의 상호 작용을 나타내는 통합 $HE_T$ 점수(0.0~1.0)를 이성의 천칭법칙을 통해 계산해 냅니다.
+
+<p align="center">
+  <img src="SEHE 이미지.png" alt="The Scales of Reason" width="1000"/>
+</p>
 
 $$\text{HE}_T = \sigma\left(\alpha \cdot \log\left(\max\left(\text{Ratio}_T - \beta, \delta\right)\right)\right)$$
 
