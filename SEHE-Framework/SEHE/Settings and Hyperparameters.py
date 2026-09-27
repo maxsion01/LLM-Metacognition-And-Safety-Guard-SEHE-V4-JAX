@@ -6,6 +6,11 @@ import sys
 # (Optional) Uncomment the following to dynamically allocate memory only as needed
 # os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false"
 # ==========================================
+
+# XLA가 메모리를 미리 폭식하지 않고, 필요한 만큼만 동적으로 할당하도록 설정
+os.environ["XLA_PYTHON_CLIENT_ALLOCATOR"] = "platform"
+
+# 상한선을 제어
 os.environ["XLA_PYTHON_CLIENT_MEM_FRACTION"] = "0.20"
 
 #설정 및 하이퍼파라미터 / Settings and Hyperparameters
