@@ -24,6 +24,13 @@
 > *   **Reference Specification (CC BY-SA 4.0 - Conceived on Feb 08, 2026):**  
 >     [Internet Archive Ledger Link](https://archive.org/details/sehe-son-ho-sung-equation-for-harmony-entropy-framework-the-scales-of-reason)
 
+> [!NOTICE]
+
+> **Timeline of Independent Discovery**
+> * Feb 08, 2026: SEHE Framework v1.0 / v3.0 conceptual formula and mathematical framework officially published on Internet Archive (CC BY-SA 4.0).
+> * Apr 02, 2026: Anthropic published "Emotion Concepts and their Function in a Large Language Model" demonstrating overlapping concepts regarding functional emotions.
+> * Apr 07, 2026: Formal Prior Art notification sent to the Anthropic interpretability team (Unanswered as of today).
+
 ---
 
 ## 🏗️ 하이브리드 라이선스 매트릭스 (Licensing Matrix)
